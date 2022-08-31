@@ -1,0 +1,21 @@
+#expandtabs()
+
+a='India\tis\tthe\tbest\tcountry'
+print(a.expandtabs())
+
+a='India\tis\tthe\tbest\tcountry'
+print(a.expandtabs(15))
+
+a='India\tis\tthe\tbest\tcountry'
+print(a.expandtabs(20))
+
+a='India\tis\tthe\tbest\tcountry'
+print(a.expandtabs(10))
+
+#find()
+
+a='india is the best country'
+print(a.find('is'))
+
+a='india is the best country in the world'
+print(a.find('the'))
